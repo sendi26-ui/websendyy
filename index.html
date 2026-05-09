@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sendi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffafdb;
+            
+            /* Menggunakan SVG untuk membuat pola pita (🎀) hanya ada 3 baris 3 kolom dan sedang */
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext y='35' font-size='25'%3E🎀%3C/text%3E%3C/svg%3E");
+            background-size: 60px 60px; /* Ukuran kerapatan pita */
+            text-align: center;
+        }
+
+        .container {
+            max-width: 450px;
+            margin: 60px auto;
+            background: rgba(255, 255, 255, 0.9); /* Putih transparan agar pita di belakang samar terlihat */
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0px 15px 35px rgba(174, 0, 128, 0.2);
+            border: 3px solid #ff89c2;
+            position: relative;
+            z-index: 1;
+        }
+
+        img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 5px solid #ffafdb;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #ae0080;
+            margin-bottom: 10px;
+            font-size: 26px;
+            text-transform: capitalize;
+        }
+
+        .info-box {
+            text-align: left;
+            background: #fff0f7;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #444;
+            margin: 10px 0;
+            border-bottom: 1px dashed #ffafdb;
+            padding-bottom: 5px;
+        }
+
+        strong {
+            color: #ae0080;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="profil web.jpg" alt="Foto Profil">
+        <h1>Sendi Auliah</h1>
+        
+        <div class="info-box">
+            <p><strong>Email:</strong> sendi_26@kharisma.ac.id</p>
+            <p><strong>Telepon:</strong> 085929818159</p>
+            <p><strong>Alamat:</strong> Makassar JL.Sultan Alauddin Mangasa, Indonesia</p>
+            <p><strong>Tentang:</strong> Saya Mahasiswi Kharisma College yang berasal dari kota pangkep, saat ini sedang menjalani kuliah semester 2 pada program studi Teknik informatika, dan berhasil bergabung dengan Kharisma Leader tahun 2025-2026. Tunggu langkah menakjubkan lainnya dari saya. SAYA SUKA WARNA PINK :)</p>
+        </div>
+    </div>
+
+</body>
+</html>
